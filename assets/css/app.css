@@ -87,11 +87,49 @@ button:nth-child(20){
 @media only screen and (max-width: 540px){
 
     .calculator{
-        height: 750px;
-        width: 464px;
-        max-width: 464px;
+        height: 500px;
+        width: 280px;
+        max-width: 280px;
         
         margin-top: 70px;
+    }
+
+    #result{
+        height: 140px;;
+    }
+    
+    #history{
+        
+        
+        margin: 0 20px;
+        padding-top: 50px;
+        padding-right: 10px;
+        font-size: 15px;
+        
+    }
+    
+    #output{
+        
+        padding-right: 10px;
+        margin: 10px 20px;
+        font-size: 25px;
+    }
+    
+   
+    
+    .operator, .number, .empty{
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        
+        border-radius: 50%;
+        border-width: 0;
+        font-size: 15px;
+        
+    }
+
+    .number:active, .operator:active{
+        font-size: 10px;
     }
 
 }
